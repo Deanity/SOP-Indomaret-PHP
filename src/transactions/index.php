@@ -165,7 +165,7 @@ function idr($val) {
 </div>
 
 <!-- Detail Modal -->
-<div id="detailModal" class="hidden fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex items-center justify-center z-50">
+<div id="detailModal" class="hidden fixed inset-0 bg-gray-900/30 backdrop-blur-md flex items-center justify-center z-50">
     <div class="bg-white w-full max-w-2xl rounded-2xl shadow-xl p-6 relative">
         <button onclick="closeModal()" class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-xl">&times;</button>
         <h3 class="text-lg font-semibold text-gray-800 mb-4">Transaction Details</h3>
